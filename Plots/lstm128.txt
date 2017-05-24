@@ -1,0 +1,310 @@
+>>>Current Run: 128
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "BestSplits" device_type: "CPU"') for unknown op: BestSplits
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "CountExtremelyRandomStats" device_type: "CPU"') for unknown op: CountExtremelyRandomStats
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "FinishedNodes" device_type: "CPU"') for unknown op: FinishedNodes
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "GrowTree" device_type: "CPU"') for unknown op: GrowTree
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ReinterpretStringToFloat" device_type: "CPU"') for unknown op: ReinterpretStringToFloat
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "SampleInputs" device_type: "CPU"') for unknown op: SampleInputs
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ScatterAddNdim" device_type: "CPU"') for unknown op: ScatterAddNdim
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNInsert" device_type: "CPU"') for unknown op: TopNInsert
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNRemove" device_type: "CPU"') for unknown op: TopNRemove
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TreePredictions" device_type: "CPU"') for unknown op: TreePredictions
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "UpdateFertileSlots" device_type: "CPU"') for unknown op: UpdateFertileSlots
+C:\Users\Nitish Mutha\Anaconda3\envs\tensorflow-gpu\lib\site-packages\tensorflow\python\ops\gradients_impl.py:91: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 960M
+major: 5 minor: 0 memoryClockRate (GHz) 1.0975
+pciBusID 0000:01:00.0
+Total memory: 2.00GiB
+Free memory: 1.65GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0 
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y 
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0)
+
+
+---Running in train mode---
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 17364 get requests, put_count=7996 evicted_count=1000 eviction_rate=0.125063 and unsatisfied allocation rate=0.602856
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+Epoch: 0, Training Accuracy: 0.0625
+Training Loss: 2.85216 
+
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 39594 get requests, put_count=39198 evicted_count=10000 eviction_rate=0.255115 and unsatisfied allocation rate=0.262818
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 110 to 121
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 28647 get requests, put_count=28311 evicted_count=10000 eviction_rate=0.35322 and unsatisfied allocation rate=0.36119
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 121 to 133
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 12661 get requests, put_count=22673 evicted_count=10000 eviction_rate=0.441053 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 11691 get requests, put_count=20704 evicted_count=9000 eviction_rate=0.434699 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 11783 get requests, put_count=20797 evicted_count=9000 eviction_rate=0.432755 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 11796 get requests, put_count=20812 evicted_count=9000 eviction_rate=0.432443 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10488 get requests, put_count=18505 evicted_count=8000 eviction_rate=0.432316 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10488 get requests, put_count=18507 evicted_count=8000 eviction_rate=0.432269 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10489 get requests, put_count=18510 evicted_count=8000 eviction_rate=0.432199 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10489 get requests, put_count=18512 evicted_count=8000 eviction_rate=0.432152 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10469 get requests, put_count=18494 evicted_count=8000 eviction_rate=0.432573 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9192 get requests, put_count=16220 evicted_count=7000 eviction_rate=0.431566 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9197 get requests, put_count=16227 evicted_count=7000 eviction_rate=0.43138 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9197 get requests, put_count=16230 evicted_count=7000 eviction_rate=0.4313 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9199 get requests, put_count=16236 evicted_count=7000 eviction_rate=0.431141 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9212 get requests, put_count=16252 evicted_count=7000 eviction_rate=0.430716 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9214 get requests, put_count=16258 evicted_count=7000 eviction_rate=0.430557 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9214 get requests, put_count=16263 evicted_count=7000 eviction_rate=0.430425 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9216 get requests, put_count=16270 evicted_count=7000 eviction_rate=0.43024 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9231 get requests, put_count=16290 evicted_count=7000 eviction_rate=0.429711 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9231 get requests, put_count=16296 evicted_count=7000 eviction_rate=0.429553 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10557 get requests, put_count=18629 evicted_count=8000 eviction_rate=0.429438 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10568 get requests, put_count=18647 evicted_count=8000 eviction_rate=0.429023 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 10574 get requests, put_count=18661 evicted_count=8000 eviction_rate=0.428702 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 11551 get requests, put_count=20646 evicted_count=9000 eviction_rate=0.43592 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 28832 get requests, put_count=28627 evicted_count=9000 eviction_rate=0.314389 and unsatisfied allocation rate=0.322905
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 1158 to 1273
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 1478 get requests, put_count=2605 evicted_count=1000 eviction_rate=0.383877 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 2805 get requests, put_count=4945 evicted_count=2000 eviction_rate=0.404449 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 4129 get requests, put_count=7283 evicted_count=3000 eviction_rate=0.411918 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 5453 get requests, put_count=9622 evicted_count=4000 eviction_rate=0.415714 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 6783 get requests, put_count=11969 evicted_count=5000 eviction_rate=0.417746 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 9419 get requests, put_count=16623 evicted_count=7000 eviction_rate=0.421103 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 1631 get requests, put_count=2878 evicted_count=1000 eviction_rate=0.347464 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 4284 get requests, put_count=7556 evicted_count=3000 eviction_rate=0.397035 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 8230 get requests, put_count=14529 evicted_count=6000 eviction_rate=0.412967 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 3083 get requests, put_count=5445 evicted_count=2000 eviction_rate=0.367309 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 7019 get requests, put_count=12417 evicted_count=5000 eviction_rate=0.402674 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 4556 get requests, put_count=8038 evicted_count=3000 eviction_rate=0.373227 and unsatisfied allocation rate=0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 29786 get requests, put_count=30319 evicted_count=4000 eviction_rate=0.13193 and unsatisfied allocation rate=0.13597
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 6418 to 7059
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 31052 get requests, put_count=32832 evicted_count=2000 eviction_rate=0.0609162 and unsatisfied allocation rate=0.0345871
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 9394 to 10333
+Epoch: 1, Training Accuracy: 0.285156
+Training Loss: 1.95141 
+
+Epoch: 2, Training Accuracy: 0.320312
+Training Loss: 1.70985 
+
+Epoch: 3, Training Accuracy: 0.40625
+Training Loss: 1.57189 
+
+Epoch: 4, Training Accuracy: 0.449219
+Training Loss: 1.32592 
+
+Epoch: 5, Training Accuracy: 0.523438
+Training Loss: 1.23613 
+
+Epoch: 6, Training Accuracy: 0.550781
+Training Loss: 1.23561 
+
+Epoch: 7, Training Accuracy: 0.558594
+Training Loss: 1.20321 
+
+Epoch: 8, Training Accuracy: 0.617188
+Training Loss: 0.999166 
+
+Epoch: 9, Training Accuracy: 0.660156
+Training Loss: 0.912074 
+
+Epoch: 10, Training Accuracy: 0.628906
+Training Loss: 0.983534 
+
+Epoch: 11, Training Accuracy: 0.644531
+Training Loss: 0.987682 
+
+Epoch: 12, Training Accuracy: 0.742188
+Training Loss: 0.733239 
+
+Epoch: 13, Training Accuracy: 0.734375
+Training Loss: 0.722445 
+
+Epoch: 14, Training Accuracy: 0.75
+Training Loss: 0.805032 
+
+Epoch: 15, Training Accuracy: 0.707031
+Training Loss: 0.792913 
+
+Epoch: 16, Training Accuracy: 0.757812
+Training Loss: 0.793041 
+
+Epoch: 17, Training Accuracy: 0.730469
+Training Loss: 0.70274 
+
+Epoch: 18, Training Accuracy: 0.761719
+Training Loss: 0.756556 
+
+Epoch: 19, Training Accuracy: 0.78125
+Training Loss: 0.588965 
+
+Epoch: 20, Training Accuracy: 0.800781
+Training Loss: 0.707808 
+
+Epoch: 21, Training Accuracy: 0.785156
+Training Loss: 0.604978 
+
+Epoch: 22, Training Accuracy: 0.851562
+Training Loss: 0.41981 
+
+Epoch: 23, Training Accuracy: 0.773438
+Training Loss: 0.650406 
+
+Epoch: 24, Training Accuracy: 0.832031
+Training Loss: 0.458479 
+
+Epoch: 25, Training Accuracy: 0.867188
+Training Loss: 0.471262 
+
+Epoch: 26, Training Accuracy: 0.84375
+Training Loss: 0.532017 
+
+Epoch: 27, Training Accuracy: 0.875
+Training Loss: 0.466565 
+
+Epoch: 28, Training Accuracy: 0.867188
+Training Loss: 0.433041 
+
+Epoch: 29, Training Accuracy: 0.867188
+Training Loss: 0.465314 
+
+Epoch: 30, Training Accuracy: 0.910156
+Training Loss: 0.322635 
+
+Epoch: 31, Training Accuracy: 0.898438
+Training Loss: 0.309858 
+
+Epoch: 32, Training Accuracy: 0.820312
+Training Loss: 0.534425 
+
+Epoch: 33, Training Accuracy: 0.898438
+Training Loss: 0.287525 
+
+Epoch: 34, Training Accuracy: 0.859375
+Training Loss: 0.465188 
+
+Epoch: 35, Training Accuracy: 0.878906
+Training Loss: 0.377222 
+
+Epoch: 36, Training Accuracy: 0.863281
+Training Loss: 0.405373 
+
+Epoch: 37, Training Accuracy: 0.855469
+Training Loss: 0.412868 
+
+Epoch: 38, Training Accuracy: 0.632812
+Training Loss: 1.00668 
+
+Epoch: 39, Training Accuracy: 0.894531
+Training Loss: 0.385478 
+
+Epoch: 40, Training Accuracy: 0.921875
+Training Loss: 0.253456 
+
+Epoch: 41, Training Accuracy: 0.929688
+Training Loss: 0.238966 
+
+Epoch: 42, Training Accuracy: 0.886719
+Training Loss: 0.348517 
+
+Epoch: 43, Training Accuracy: 0.582031
+Training Loss: 1.10727 
+
+Epoch: 44, Training Accuracy: 0.625
+Training Loss: 1.05154 
+
+Epoch: 45, Training Accuracy: 0.6875
+Training Loss: 0.865751 
+
+Epoch: 46, Training Accuracy: 0.839844
+Training Loss: 0.515206 
+
+Epoch: 47, Training Accuracy: 0.90625
+Training Loss: 0.339133 
+
+Epoch: 48, Training Accuracy: 0.882812
+Training Loss: 0.34267 
+
+Epoch: 49, Training Accuracy: 0.898438
+Training Loss: 0.335025 
+
+
+Training Complete. Running tests...
+Batch Test Accuracy: 0.878906
+Batch Test Loss: 0.459224
+Batch Test Accuracy: 0.878906
+Batch Test Loss: 0.417275
+Batch Test Accuracy: 0.851562
+Batch Test Loss: 0.473377
+Batch Test Accuracy: 0.90625
+Batch Test Loss: 0.372207
+Batch Test Accuracy: 0.890625
+Batch Test Loss: 0.514274
+Batch Test Accuracy: 0.867188
+Batch Test Loss: 0.321656
+Batch Test Accuracy: 0.871094
+Batch Test Loss: 0.461312
+Batch Test Accuracy: 0.917969
+Batch Test Loss: 0.332506
+Batch Test Accuracy: 0.84375
+Batch Test Loss: 0.517938
+Batch Test Accuracy: 0.847656
+Batch Test Loss: 0.552356
+Batch Test Accuracy: 0.863281
+Batch Test Loss: 0.41487
+Batch Test Accuracy: 0.871094
+Batch Test Loss: 0.418185
+Batch Test Accuracy: 0.890625
+Batch Test Loss: 0.397312
+Batch Test Accuracy: 0.863281
+Batch Test Loss: 0.414288
+Batch Test Accuracy: 0.871094
+Batch Test Loss: 0.509215
+Batch Test Accuracy: 0.851562
+Batch Test Loss: 0.413545
+Batch Test Accuracy: 0.863281
+Batch Test Loss: 0.489718
+Batch Test Accuracy: 0.851562
+Batch Test Loss: 0.429644
+Batch Test Accuracy: 0.871094
+Batch Test Loss: 0.371771
+Batch Test Accuracy: 0.917969
+Batch Test Loss: 0.314451
+Batch Test Accuracy: 0.9375
+Batch Test Loss: 0.241642
+Batch Test Accuracy: 0.9375
+Batch Test Loss: 0.161537
+Batch Test Accuracy: 0.890625
+Batch Test Loss: 0.392659
+Batch Test Accuracy: 0.832031
+Batch Test Loss: 0.493941
+Batch Test Accuracy: 0.9375
+Batch Test Loss: 0.192562
+Batch Test Accuracy: 0.898438
+Batch Test Loss: 0.375342
+Batch Test Accuracy: 0.933594
+Batch Test Loss: 0.258963
+Batch Test Accuracy: 0.933594
+Batch Test Loss: 0.218989
+Batch Test Accuracy: 0.917969
+Batch Test Loss: 0.248803
+Batch Test Accuracy: 0.945312
+Batch Test Loss: 0.205878
+Batch Test Accuracy: 0.902344
+Batch Test Loss: 0.342443
+Batch Test Accuracy: 0.917969
+Batch Test Loss: 0.296014
+Batch Test Accuracy: 0.871094
+Batch Test Loss: 0.436619
+Batch Test Accuracy: 0.972656
+Batch Test Loss: 0.133365
+Batch Test Accuracy: 0.976562
+Batch Test Loss: 0.104391
+Batch Test Accuracy: 0.949219
+Batch Test Loss: 0.175514
+Batch Test Accuracy: 0.9375
+Batch Test Loss: 0.258131
+Batch Test Accuracy: 0.914062
+Batch Test Loss: 0.318474
+Batch Test Accuracy: 0.851562
+Batch Test Loss: 0.421696
+Model weights saved in file:  ../models/task1_a_128/model.ckpt
+Test Accuracy: 0.895533
+Test Losses: 0.355695

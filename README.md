@@ -1,7 +1,12 @@
-# Assignment 2:
+---
+# Advanced Topics in Machine Learning
+### Course at UCL (University College London) by Google DeepMind  
+##### COMPGI13 Assignment 2
+---
+#### Nitish Mutha
 
-### Nitish Mutha
-#### Student no: 15113106  
+##### email: nitish.mutha.16@ucl.ac.uk 
+---
 
 For each task I have added a command line API, so you can choose to run any model in either TRAIN or TEST mode. You can also select to run a model with specific configurations. In test mode code will pick models automatically based on arguments passed. For each task following are the API avaliable to execute the code from command line  
 

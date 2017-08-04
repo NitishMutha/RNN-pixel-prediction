@@ -1,12 +1,17 @@
 ---
-# Advanced Topics in Machine Learning
+# Recurrent Neural Network based Pixel Prediction and In-painting
+## Advanced Topics in Machine Learning
 ### Course at UCL (University College London) by Google DeepMind  
 #### COMPGI13 Assignment 2 - Inpainting using Recurrent Neural Networks (LSTM) on MNIST dataset
 ---
 #### Nitish Mutha
 
 ##### email: nitish.mutha.16@ucl.ac.uk 
----
+---  
+
+#### Recurrent Neural Network based Pixel Prediction and In-painting demo:  
+
+![demo](https://github.com/NitishMutha/RNN-pixel-prediction/blob/master/data/demo.gif)
 
 For each task I have added a command line API, so you can choose to run any model in either TRAIN or TEST mode. You can also select to run a model with specific configurations. In test mode code will pick models automatically based on arguments passed. For each task following are the API avaliable to execute the code from command line  
 

@@ -12,6 +12,7 @@
 #### Recurrent Neural Network based Pixel Prediction and In-painting demo:  
 
 ![demo](https://github.com/NitishMutha/RNN-pixel-prediction/blob/master/data/demo.gif)
+![demo](https://github.com/NitishMutha/RNN-pixel-prediction/blob/master/data/pixelinpainting.gif)
 
 For each task I have added a command line API, so you can choose to run any model in either TRAIN or TEST mode. You can also select to run a model with specific configurations. In test mode code will pick models automatically based on arguments passed. For each task following are the API avaliable to execute the code from command line  
 

@@ -62,7 +62,7 @@ arg4 = (int) number of layers: e.g. `1` or `3`
 3. GRU 128 units, 1 layer: `models/task2_gru_128`    
 4. Stacked GRU 32 units, 3 layers: `models/task2_gru_32_3`  
 
-####API to run the code from command line:  
+#### API to run the code from command line:  
 Command: `python task2a.py <arg1> <arg2> <arg3> <arg4>`  
 Where,   
 arg1 = (str) mode: e.g. `train`, `test`  
@@ -84,7 +84,7 @@ arg4 = (int) number of layers: e.g. `1` or `3`
 3. GRU 128 units, 1 layer: `models/task2_gru_128`    
 4. Stacked GRU 32 units, 3 layers: `models/task2_gru_32_3`  
 
-####API to run the code from command line:  
+#### API to run the code from command line:  
 Command: `python task2b.py <arg1> <arg2> <arg3> <arg4> <arg5> <arg6>`  
 Where,   
 arg1 = (str) mode: e.g. `build`, `run`  
@@ -110,7 +110,7 @@ arg6 = (csv) list of sample to run visualization with: e.g `1,2,3,4`
 3. GRU 128 units, 1 layer: `models/task2_gru_128`    
 4. Stacked GRU 32 units, 3 layers: `models/task2_gru_32_3`  
 
-####API to run the code from command line:  
+#### API to run the code from command line:  
 Command: `python task3.py <arg1> <arg2> <arg3> <arg4> <arg5> <arg6>`  
 Where,   
 arg1 = (str) mode: e.g. `1x1`, `2x2`  

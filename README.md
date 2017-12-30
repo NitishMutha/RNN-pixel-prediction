@@ -1,13 +1,5 @@
 ---
 # Recurrent Neural Network based Pixel Prediction and In-painting
-## Advanced Topics in Machine Learning
-### Course at UCL (University College London) by Google DeepMind  
-#### COMPGI13 Assignment 2 - Inpainting using Recurrent Neural Networks (LSTM) on MNIST dataset
----
-#### Nitish Mutha
-
-##### email: nitish.mutha.16@ucl.ac.uk 
----  
 
 #### Recurrent Neural Network based Pixel Prediction and In-painting demo:  
 
